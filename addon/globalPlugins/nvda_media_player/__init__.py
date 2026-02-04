@@ -195,7 +195,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
         self.autoplay = not self.autoplay
         ui.message(f"Autoplay {'on' if self.autoplay else 'off'}")
 
-    @script(description="Open audio file", gesture="kb:NVDA+Shift+M")
+    @script(description="Open audio file", gesture="kb:NVDA+Alt+O")
     def script_openFile(self, gesture):
         wx.CallAfter(self._doOpenFile)
 

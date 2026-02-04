@@ -15,7 +15,7 @@ A lightweight, high-quality background media player integrated directly into NVD
 3. Install this file into NVDA like any other addon.
 
 ## Shortcuts
-- `NVDA+Shift+M`: **Open File** (Select a track and automatically load the folder)
+- `NVDA+Alt+O`: **Open File** (Select a track and automatically load the folder)
 - `NVDA+Shift+R`: **Resume Playback** (Pick up exactly where you left off)
 - `NVDA+Shift+.`: **Play / Pause**
 - `NVDA+Shift+/`: **Next Track**
